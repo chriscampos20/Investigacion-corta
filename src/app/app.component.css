@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(15, 23, 42);
+    margin: 0;
+    font-family: 'Playwrite PL', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre la izquierda y la derecha */
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.izquierda, .derecha {
+    flex: 1;
+}
+
+.izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px; /* Margen superior ajustado */
+}
+
+.sobremi {
+    margin-bottom: 20px;
+}
+
+.miinfo {
+    margin-top: 30px;
+}
+
+.derecha {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espacio entre los elementos en la derecha */
+}
+
+.yoimagen {
+    display: flex;
+    justify-content: center;
+}
+
+.yoimagen img {
+    border-radius: 50%; /* Opcional: para una imagen circular */
+}
+
+.mihistoria {
+    color: rgb(230, 243, 243);
+    line-height: 1.6;
+}
+
+.Python, .Goland, .Java, .Android, .Javascript {
+    padding: 20px;
+    color: rgb(230, 243, 243);
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Python {
+    background-color: rgb(19, 30, 56);
+}
+
+.Goland {
+    background-color: rgb(19, 30, 56);
+}
+
+.Java {
+    background-color: rgb(19, 30, 56);
+}
+
+.Android {
+    background-color: rgb(19, 30, 56);
+}
+
+.Javascript {
+    background-color: rgb(19, 30, 56);
+}
+
+.project img {
+    border-radius: 8px;
+}
+
+h1, h3, h5 {
+    color: rgb(230, 243, 243);
+    margin: 0;
+}
